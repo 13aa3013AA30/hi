@@ -1,0 +1,45 @@
+x = [7,8,9]
+a=0
+for i in x:
+    if i % 7 == 0:
+        a=a+1
+if a>0:
+    print("список счастливый")
+if a==0:
+    print("список несчастливый")
+
+year = int(input())
+if year % 4 == 0:
+    print("the leap year")
+else:
+    print("not the leap year")
+    
+    a = int(input())
+p = a * 3
+s = a ** 2
+f=a*0.5
+d=f*a
+print(p, s)
+print(d)
+
+a = int(input())
+years = int(input())
+m = int(input())
+for i in range(years):
+    a = a * m / 100 + a
+print(a)
+
+a = int(input())
+b = [8,1,0]
+for x in b:
+    if x == a:
+    
+a = input()
+b = ["Москит", "укусил", "туриста", "в", "Тихом", "океане", "Кот", "бегемот", "кит"]
+for i in b:
+   if i ==a:
+         print(i)
+
+        print("+")
+    else:
+        print("-")
